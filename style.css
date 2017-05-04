@@ -7,7 +7,7 @@ body {
 } 
 
 .icon {
-    width: 6%;
+    width: 5%;
     margin-top: -7px;
 }
 
@@ -40,7 +40,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: ghostwhite;
+    background-color: white;
 }
 li a:hover:not(.active) {
     background-color: seagreen;
@@ -48,18 +48,24 @@ li a:hover:not(.active) {
 }
 .about-me {
     width: 50%;
+    font-size: 1em;
     
 }
+.about-image {
+    width: 25%;
+    float: right;
+    margin-right: 100px;
+}
+
 .item {
     width: 75%;
-    margin-right: 150px;
-        
+    margin-right: 150px;    
 }
 
 * {box-sizing: border-box}
 
 .container {
-  width: 50%;
+  width: 30%;
   background-color: #ddd;
 }
 
