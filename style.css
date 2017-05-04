@@ -59,7 +59,8 @@ li a:hover:not(.active) {
 
 .item {
     width: 75%;
-    margin-right: 150px;    
+    margin-right: 120px; 
+    position: relative;
 }
 
 * {box-sizing: border-box}
