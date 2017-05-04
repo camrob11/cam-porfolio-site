@@ -1,13 +1,15 @@
 body {
     width: 100%;
-    background-color: ;
+}
+.nav-top{
+    width: 100%;
 }
 .cover-image {
     width: 100%;
 } 
 
 .icon {
-    width: 5%;
+    width: 3%;
     margin-top: -7px;
 }
 
@@ -75,6 +77,10 @@ li a:hover:not(.active) {
   padding-right: 20px;
   line-height: 40px;
   color: white;
+}
+
+h1 {
+    font-size: 2em;
 }
 
 /*Skills*/
