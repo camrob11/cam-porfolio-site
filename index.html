@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Cam Robinson Portfolio</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
+    </head>
+    <body>
+           <a href="https://www.facebook.com"><img class="icon" src="imgs/icon%20facebook.jpg"></a>
+            <a href="https://www.instagram.com/camboslice613/"> <img class="icon" src="imgs/icon%20instagram.jpg"></a>
+            <a href="https://www.pinterest.com/camrob11/my-pieces/"> <img class="icon" src="imgs/icon%20pinterest.jpg"></a>
+        <header>
+            <nav class="nav-top">
+                <ul>
+                    <li><a class="active" href="#ABOUT">ABOUT</a></li>
+                    <li><a class="nav-link" href="#works">WORKS</a></li>
+                    <li><a class="nav-link" href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+           
+            
+        </header>
+        <section>
+            <img class="cover-image" src="imgs/home%20cover%20page.png">
+            <img>
+            <img>
+            <h1>About Me</h1>
+            <p class="about-me"> I was born and raised in Jonesboro, Arkansas. I was born on the 19th day of the month of love. I am a senior at <a href="https://www.astate.edu/">Arkansas State University</a>. Go Red Wolves! I love art and do it all: drawing, sculpting, painting, ect. in addition to graphic design. </p>
+            </section>
+       
+            <h1>My Skills</h1>
+            <p>Illustrator</p>
+            <div class="container">
+              <div class="illustrator">90%</div>
+            </div>
+
+            <p>Photoshop</p>
+            <div class="container">
+              <div class="photoshop">80%</div>
+            </div>
+
+            <p>InDesign</p>
+            <div class="container">
+              <div class="indesign">65%</div>
+            </div>
+
+            <p>Web Design</p>
+            <div class="container">
+              <div class="web-design">50%</div>
+            </div>
+            
+        <h2>Works</h2>
+         <div  id="works" class="owl-carousel owl-theme">
+                <div class="item"><img src="imgs/Screen%20Shot%202017-04-20%20at%2011.49.28%20AM.png"> </div>
+                <div class="item"><img src="imgs/Nuthouse%20board.jpg"></div>
+                <div class="item"><img src="imgs/zoo%20campaign%20print%20copy.jpg"></div>
+                <div class="item"><img src="imgs/Screen%20Shot%202017-04-20%20at%2011.49.59%20AM.png"></div>
+                <div class="item"><img src="imgs/Screen%20Shot%202017-04-20%20at%2012.01.51%20PM.png"></div>
+                <div class="item"><img src="imgs/Screen%20Shot%202017-04-20%20at%2012.03.06%20PM.png"></div>
+                <div class="item"><img src="imgs/Screen%20Shot%202017-04-20%20at%2012.03.46%20PM.png"></div>
+                <div class="item"><img src="imgs/Screen%20Shot%202017-04-20%20at%2012.04.08%20PM.png"></div>
+            <div class="item"><img src="imgs/coffee%20shop.png"></div>
+            <div class="item"><img src="imgs/old%20spice.png"></div>
+            <div class="item"><img src="imgs/nike%20ball.png"></div>
+            <div class="item"><img src="imgs/nike%20high.png"></div>
+            <div class="item"><img src="imgs/nike%20long.png"></div>
+            </div>
+       
+        <script src="OwlCarousel2-2.2.1/docs/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".owl-carousel").owlCarousel();
+            });
+        </script>
+        <script>
+        $('.owl-carousel').owlCarousel({
+            rtl:true,
+            loop:true,
+            margin:40,
+            nav:true,
+            items: 1
+//            responsive:{
+//                0:{
+//                    items:1
+//                },
+//                600:{
+//                    items:3
+//                },
+//                1000:{
+//                    items:5
+//                }
+//            }
+        })
+        </script>
+        <h2>Contact Me</h2>
+            <div id="contact" class="contact-form">
+      <form action="/action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="fname">Phone</label>
+        <input type="text" id="fname" name="phonenumber" placeholder="Your number..">
+    <label for="subject">Subject</label>
+           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+  </form>
+</div>
+        <footer>
+            
+        
+        </footer>
+    
+    </body>
+</html>

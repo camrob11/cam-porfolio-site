@@ -1,0 +1,145 @@
+body {
+    width: 100%;
+    background-color: ;
+}
+.cover-image {
+    width: 100%;
+} 
+
+.icon {
+    width: 6%;
+    margin-top: -7px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+     list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: dodgerblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: ghostwhite;
+}
+li a:hover:not(.active) {
+    background-color: seagreen;
+    color: white;
+}
+.about-me {
+    width: 50%;
+    
+}
+.item {
+    width: 75%;
+    margin-right: 150px;
+        
+}
+
+* {box-sizing: border-box}
+
+.container {
+  width: 50%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+/*Skills*/
+.illustrator {width: 90%; background-color: #4CAF50;}
+.photoshop {width: 80%; background-color: #2196F3;}
+.indesign {width: 65%; background-color: #f44336;}
+.web-design{width: 50%; background-color: #808080;}
+
+
+<h1>My Skills</h1>
+
+<p>HTML</p>
+<div class="container">
+  <div class="illustrator">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="photoshop">80%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="indesign">65%</div>
+</div>
+
+<p>PHP</p>
+<div class="container">
+  <div class="web-design">50%</div>
+</div>
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Contact Form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    width: 90%;
+    }
+
+
+    
