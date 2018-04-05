@@ -1,0 +1,39 @@
+@media (max-width: 2000px) and (min-width: 1001px) {
+    .column {
+        width: 30%;
+    }
+}
+@media (max-width: 1000px) and (min-width: 801px) {
+    .column {
+        width: 40%;
+    }
+    .resume-pic {
+        width: 80px;
+    }
+}
+@media (max-width: 800px) and (min-width: 601px) {
+    .column {
+        width: 40%;
+        padding: 4px;
+    }
+    .row {
+        margin-left: 2px;
+    }
+    .resume-pic {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    ul {
+        font-size: 1.5em;
+    }
+    .logo {
+        width: 100px;
+    }
+    .resume-pic {
+        margin-left: 0px;
+    }
+}

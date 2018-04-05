@@ -1,0 +1,179 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    height: 90px;
+}
+.logo {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+nav {
+    width: 70%;
+    text-align: center;
+}
+.nav-top {
+    margin: 0 auto;
+    height: 200px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px auto;
+    width: 100%;
+    font-size: 2em;
+    font-weight: 700;
+}
+li {
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: #AE2025;
+    text-align: center;
+    padding; 14px 30px;
+    text-decoration: none;
+}
+li a:hover {
+   color: #650E0E;
+}
+.active {
+    background-color: darkred;
+}
+
+.about-image {
+    width: 70%;
+    float: right;
+    margin: 0 auto;
+}
+.me-image {
+    margin: 0 auto;
+    width: 50%;
+}
+.about-info {
+    width: 70%;
+    margin: 0 auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(174, 32, 37);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 1em;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #AE2025;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 2em;
+}
+.about-paragraph {
+ width: 100%;   
+
+}
+input[type=submit]:hover {
+    background-color: dodgerblue;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.contact-container {
+/*    float: right;*/
+    width: 50%;
+    margin: 0 auto;
+}
+
+.icons {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 30px;
+}
+}
+.foot-info {
+    text-align: center;
+    clear: both;
+}
+footer {
+    clear: both;
+    width: 50%;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.resume-pic {
+    width: auto;
+    margin-left: 150px;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+    
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(174, 32, 37, .5);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
